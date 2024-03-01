@@ -1,0 +1,116 @@
+<!--  DPT-5257 and DPT-5313: US & CA Ayden Checkout Alert Messages lu: 01-25-2024 : SU -->
+
+<style>
+    .sparky-c-alert .sparky-c-text-passage,
+    .sparky-c-alert .sparky-c-heading.sparky-c-heading--body-bold {
+        font-size: 14px !important;
+        color: #131313;
+    }
+
+    svg.sparky-c-icon.sparky-c-icon--information-circle-fill.sparky-c-icon--sm.sparky-c-alert__icon.dp5257 {
+        width: 16px;
+        height: 16px;
+        fill: #206EF6 !important;
+    }
+
+    .sparky-l-container.sparky-c-alert.dpt5257 {
+        max-width: 1240px;
+        margin-left: 30px;
+        padding: 14px;
+    }
+
+    .sparky-l-container.sparky-c-alert.dpt5257.pickup {
+        max-width: 1240px;
+        margin-left: auto;
+    }
+
+    .sparky-l-linelength-container.sparky-c-text-passage__inner.dpt5257 {
+        max-width: 1240px;
+
+    }
+
+    .sparky-l-linelength-container .sparky-c-text-passage__inner.dpt5257 {
+        max-width: 1210px;
+
+    }
+
+    .headWrapper .sparky-c-alert.dpt5257 {
+        margin-bottom: 30px;
+    }
+
+    /* Same Day Delivery */
+    .sparky-l-container.sparky-c-alert.sdd {
+        max-width: 1180px;
+    }
+
+    @media (max-width: 48rem) {
+        .sparky-l-container.sparky-c-alert.dpt5257 {
+            margin-left: 0;
+        }
+
+        .sparky-l-container.sparky-c-alert.dpt5257.pickup {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+</style>
+
+
+<!--  Store Pickup and Same Day Delivery:  Before #main-content > .sparky-l-container  -->
+<div class="sparky-l-container sparky-c-alert dpt5257 pickup" role="alert"> <svg aria-hidden="true" class="sparky-c-icon sparky-c-icon--information-circle-fill sparky-c-icon--sm sparky-c-alert__icon dpt5257" focusable="false">
+        <use href="/on/demandware.static/-/Library-Sites-PetSmartSharedLibrary/default/v1706036754962/js/cd3ae28b03c52ac2ecea.svg#information-circle-fill"></use>
+    </svg>
+    <div class="sparky-c-alert__body">
+        <div class="sparky-l-linelength-container">
+            <h2 class="sparky-c-heading sparky-c-heading--body-bold"></h2>
+        </div>
+        <div class="sparky-c-text-passage">
+            <div class="sparky-l-linelength-container sparky-c-text-passage__inner dpt5257 pickup">
+                <p>We’re updating our checkout experience. If you have any issues, please try again later or use a different payment method.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  Ship to Home and Autoship:  Before .headWrapper   -->
+<div class="row notbootstrap">
+    <div class="sparky-l-container sparky-c-alert dpt5257" role="alert"><svg aria-hidden="true" class="sparky-c-icon sparky-c-icon--information-circle-fill sparky-c-icon--sm sparky-c-alert__icon dp5257" focusable="false">
+            <use href="/on/demandware.static/-/Library-Sites-PetSmartSharedLibrary/default/v1706036754962/js/cd3ae28b03c52ac2ecea.svg#information-circle-fill"></use>
+        </svg>
+        <div class="sparky-c-alert__body">
+            <div class="sparky-l-linelength-container">
+                <h2 class="sparky-c-heading sparky-c-heading--body-bold"></h2>
+            </div>
+            <div class="sparky-c-text-passage">
+                <div class="sparky-l-linelength-container sparky-c-text-passage__inner dpt5257">
+                    <p> We’re updating our checkout experience. If you have any issues, please try again later or use a different payment method.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-7 col-md-8 col-lg-7 checkout-header-left">
+        <h3 class="heading-text checkout-main-header" id="skip-to-content">checkout</h3>
+        <h3 class="heading-text hidden-wrapper" id="final-review-header">final review</h3>
+    </div>
+    <div class="col-xs-5 col-md-4 hidden-lg checkout-amount-due-right">
+        <div id="amount-due">
+            <h4 class="heading-text">amount due :</h4>
+            <h4 class="heading-text checkout-amount">$15.59</h4>
+        </div>
+    </div>
+    <div id="complete-btn-main-wrapper-head" class="col-lg-5 head-complete-btn section-wrapper hidden-wrapper">
+        <div class="complete-btn-container">
+            <div class="chkout-section-block chkout-row-border"></div>
+            <div class="complete-purchase-message-head">
+                <p class="complete-purchase-info">
+                </p>
+                <div class="content-asset">
+                    By placing your order, you agree to PetSmart's <strong><a href="https://www.petsmart.com/help/privacy-policy-H0011.html" title="Go to Privacy" target="blank">Privacy Policy</a></strong> and <strong><a href="https://www.petsmart.com/help/terms-and-conditions-H0010.html" title="Go to Terms" target="blank">Terms of Use</a></strong>. Once you complete your purchase, your order cannot be changed or cancelled.
+                    <br><br>
+                    Have questions? Check out our <strong><a href="https://www.petsmart.com/help/your-order-H0003c.html" title="FAQs" target="blank">FAQ's</a></strong> or <strong><a href="https://www.petsmart.com/help/" title="Go to Help" target="blank">Visit Help</a></strong>.
+                </div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
